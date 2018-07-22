@@ -11,9 +11,9 @@ public class init {
 public static void main(String[] args) throws IOException {
 	ArrayList<ball> balls=new ArrayList<ball>();
 	ArrayList<Image> ballimg=new ArrayList<Image>();
-	ballimg.add(ImageIO.read(new File("src\\img\\huaji2.png")));
-	ballimg.add(ImageIO.read(new File("src\\img\\huaji4.png")));
-	ballimg.add(ImageIO.read(new File("src\\img\\huaji3.png")));
+	ballimg.add(ImageIO.read(new File("src/img/huaji2.png")));
+	ballimg.add(ImageIO.read(new File("src/img/huaji4.png")));
+	ballimg.add(ImageIO.read(new File("src/img/huaji3.png")));
 	MyFrame a=new MyFrame(0,0,balls);
 	for(int i=0;i<1000;i++)
 	{
